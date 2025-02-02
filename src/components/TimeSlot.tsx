@@ -18,6 +18,7 @@ export function TimeSlotRow({ slot, onDelete }: TimeSlotProps) {
                 ease: "easeOut"
             }}
             className="flex justify-between items-center overflow-hidden gap-4 mb-3"
+            layout
         >
             <div className="flex items-center gap-4">
                 <span className="text-gray-400 w-8">From</span>

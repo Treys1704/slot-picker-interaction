@@ -29,8 +29,8 @@ export function DayScheduleComponent({ day, schedule, onUpdate }: DaySchedulePro
 
     return (
         <motion.div
-            layout
             className="border rounded-[20px] mb-2 w-[400px] max-w-3xl"
+            layout
         >
             <div className={`${schedule.isEnabled ? 'bg-white' : 'bg-slate-100/50'} rounded-[20px] flex items-center justify-between p-4`}>
                 <motion.span layout className="text-gray-600 font-medium">{day}</motion.span>
